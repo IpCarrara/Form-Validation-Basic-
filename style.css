@@ -1,0 +1,54 @@
+/* Form Validation */
+
+			body {
+				
+				font-family: helvetica, sans-serif;
+                font-size:130%;
+				font-weight:bold;
+				background-color:#48A6E7;
+				
+			}
+		
+			#formulario {
+				margin-bottom:10px;
+			}
+			
+			#container {
+				width:420px;
+				margin:0 auto;
+				background-color:#AFDBFA;
+				padding: 20px 10px 10px 15px;
+				border: 1px solid white;
+			}
+			
+			label {
+                
+				position: relative;
+                top:5px;
+                width:200px;
+                float: left;
+				}
+				
+			input {
+				height: 25px;
+				width: 200px;
+				border: 2px solid grey;
+				border-radius:5px;
+				padding:3px;
+			}
+			button {
+				font-size:20px;
+				border-radius:5px;
+				margin-left:170px;
+				margin-top:20px;
+				background-color:#0397FE;
+				border-color:#0397FE;
+				color:white;
+				
+			}
+			
+			.mensagemErro {
+				font-size:11px;
+				color:red;
+				margin-left:210px;
+			}

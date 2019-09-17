@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Form Validation</title>
+		
+		<meta charset="utf-8"/>
+		<meta name="author" content="Isabela Carrara">
+		<meta name="description" content= "Teste de formulário com validação de email, telefone e senha.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
+	</head>
+	<body>
+		<div id="container">
+	
+			<div id="formulario">
+				<label for="email">E-mail</label>
+				<input type="text" name="email" id="email" placeholder="seuemail@aqui.com">
+			
+			</div>
+			
+			<div class="mensagemErro" id="emailErro"></div>
+			
+			<div id="formulario">
+				<label for="telefone">Telefone</label>
+				<input type="text" name="telefone" id="telefone" placeholder="31985735973">
+			
+			</div>
+			
+			<div class="mensagemErro" id="telefoneErro"></div>
+			
+			<div id="formulario">
+				<label for="senha">Senha</label>
+				<input type="password" name="senha" id="senha">
+			
+			</div>
+			<div id="formulario">
+				<label for="senhaConfirmar">Confirmar Senha</label>
+				<input type="password" name="senhaConfirmar" id="senhaConfirmar">
+			
+			</div>
+			
+			<div class="mensagemErro" id="senhaErro"></div>
+			
+			<div id="formulario">
+				<button id="button">Enviar</button>
+			
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
